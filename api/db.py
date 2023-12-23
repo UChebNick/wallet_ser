@@ -80,7 +80,7 @@ class db:
 
 
             code = await pub_code()
-            cur.execute('INSERT INTO user_table (pub, priv, amount) VALUES (?,?,?)', (code[0], code[1], 1000))
+            cur.execute('INSERT INTO user_table (pub, priv, amount) VALUES (?,?,?)', (code[0], code[1], 0))
             sqlite_connection.commit()
             cur.close()
             return code

@@ -1,4 +1,4 @@
-from api import loader, db
+import loader, db
 import math
 
 
