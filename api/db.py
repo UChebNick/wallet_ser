@@ -1,7 +1,7 @@
 import sqlite3
-from api import loader
+import loader
 from datetime import datetime
-from api import general_functions
+import general_functions
 
 
 import sqlite3
